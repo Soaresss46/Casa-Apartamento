@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(126, 126, 126);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: hwb(202 0% 0%);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.div-primaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-primaria input {
+    width: 400px;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.div-secundaria {
+    display: flex;
+    justify-content: center;
+}
+
+.casa-apartamento {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.casa-apartamento div {
+    display: flex;
+    align-items: center;
+}
+
+.casa-apartamento input {
+    margin-right: 10px;
+}
+
+.casa-apartamento label {
+    font-size: 1.5rem;
+}
+
+.apartamento {
+    display: flex;
+    justify-content: center;
+}
+
+.apartamento input {
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+button {
+    margin-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: #00a2ff;
+    border: 2px solid #00a2ff;
+    border-radius: 30px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003cff;
+    cursor: pointer;
+}
+
+.botao-fim {
+    display: flex;
+    justify-content: center;
+}
+
+#resultado {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #333;
+}
